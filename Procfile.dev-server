@@ -11,4 +11,3 @@ web: rails s -p 3000
 # the example in the https://github.com/shakacode/react-webpack-rails-tutorial
 
 client: bin/webpack-dev-server
-bsb: yarn run build-watch

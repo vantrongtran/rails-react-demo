@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
 
-Things you may want to cover:
+You need to install all of this before moving to next step
 
-* Ruby version
+```bash
+gem install foreman
+```
 
-* System dependencies
+## Start server
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+foreman start -f Procfile.dev-server
+```
